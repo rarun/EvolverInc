@@ -1,0 +1,31 @@
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log opened at 2013-07-08 20:41:09
+project --topLevelPackage com.evolverinc.demo --projectName EvolverInc --java 6 --packaging WAR
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log closed at 2013-07-08 20:41:18
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log opened at 2013-07-08 20:43:22
+jpa setup --database MYSQL --provider HIBERNATE --databaseName evolverdb --hostName 127.0.0.1 --userName root --password evolverinc
+entity jpa --class ~.domain.Customer --testAutomatically
+field string --fieldName fname --notNull
+field string --fieldName lname --notNull
+field string --fieldName email --notNull --regexp ^[\\w-_\\.+]*[\\w-_\\.]\\@([\\w]+\\.)+[\\w]+[\\w]$
+field string address1 --notNull
+field string address2 
+field string city --notNull 
+field string st --notNull
+entity jpa --class ~.domain.Document --testAutomatically
+field string --fieldName filename --notNull
+field string --fieldName description --sizeMax 500
+field number --type long --fieldName filesize --notNull true
+field string --fieldName contentType --notNull true
+// script --file C:\Users\Rama\Desktop\Iteration1_files\step1.roo
+web mvc setup
+web mvc all --package ~.web
+// script --file C:\Users\Rama\Desktop\Iteration1_files\step3.roo
+logging setup --level INFO --package ALL_SPRING
+selenium test --controller ~.web.CustomerController
+security setup
+field string --class ~.domain.Customer --fieldName password --notNull --sizeMin 6 --sizeMax 10
+finder add --finderName findCustomersByEmailAndPasswordEquals --class ~.domain.Customer
+// script --file C:\Users\Rama\Desktop\Iteration2_files\step1.roo
+email sender setup --hostServer smtp.gmail.com --username evolverroo@gmail.com --password evolver2013 --port 587 --protocol SMTP
+field email template --class ~.web.DocumentController
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log closed at 2013-07-08 21:25:32

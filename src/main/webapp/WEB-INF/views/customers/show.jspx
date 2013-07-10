@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_evolverinc_demo_domain_Customer" object="${customer}" path="/customers" z="y718uXudgC4/miX4eYy1RLKBeZA=">
+        <field:display field="fname" id="s_com_evolverinc_demo_domain_Customer_fname" object="${customer}" z="UPlR+1glXEdnVSwZxBW6KJnhHJ4="/>
+        <field:display field="lname" id="s_com_evolverinc_demo_domain_Customer_lname" object="${customer}" z="MTVGUSwMPsln0rqVoOxCs6OrJc8="/>
+        <field:display field="email" id="s_com_evolverinc_demo_domain_Customer_email" object="${customer}" z="mlmSEeAk+l3gxxMUWX3yys4noVo="/>
+        <field:display field="address1" id="s_com_evolverinc_demo_domain_Customer_address1" object="${customer}" z="pLBKko3Q1cwLyt2Hw0+UafzmYFQ="/>
+        <field:display field="address2" id="s_com_evolverinc_demo_domain_Customer_address2" object="${customer}" z="tTTynu/Wi0rfAQq5lf3VyzhUdII="/>
+        <field:display field="city" id="s_com_evolverinc_demo_domain_Customer_city" object="${customer}" z="JC4YnikO2XOckflVYLru9M4pnB0="/>
+        <field:display field="st" id="s_com_evolverinc_demo_domain_Customer_st" object="${customer}" z="7P59TI1I2LDbI3mGxltFCx+APVY="/>
+        <field:display field="password" id="s_com_evolverinc_demo_domain_Customer_password" object="${customer}" z="B67DGTqvYL3IiR05plAbDl8h3Gk="/>
+    </page:show>
+</div>

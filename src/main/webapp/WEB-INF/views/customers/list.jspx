@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_evolverinc_demo_domain_Customer" items="${customers}" z="zON4Fg81F3p6aDn4nv+2qItSqA8=">
+        <table:table data="${customers}" id="l_com_evolverinc_demo_domain_Customer" path="/customers" z="/kYZdBtm1u1+WaQMMuTcqM6a+wk=">
+            <table:column id="c_com_evolverinc_demo_domain_Customer_fname" property="fname" z="9xW+t5TOap55qzQX2STkJFKmpvA="/>
+            <table:column id="c_com_evolverinc_demo_domain_Customer_lname" property="lname" z="nUWx9YdaSumC7Fla0x4Zuuv2W1M="/>
+            <table:column id="c_com_evolverinc_demo_domain_Customer_email" property="email" z="2ykOdlpsbz0cTIZJUkXQZ//BoPg="/>
+            <table:column id="c_com_evolverinc_demo_domain_Customer_address1" property="address1" z="IookiibxO2mNjrZiF5EeCb+Ldyk="/>
+            <table:column id="c_com_evolverinc_demo_domain_Customer_address2" property="address2" z="NvJuirNbpkJrwnF1HD0WzbRrNmA="/>
+            <table:column id="c_com_evolverinc_demo_domain_Customer_city" property="city" z="U+Wwt5fwnoUP2X+0+cJb7F0TcIk="/>
+        </table:table>
+    </page:list>
+</div>

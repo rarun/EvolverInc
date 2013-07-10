@@ -1,0 +1,19 @@
+<aspectj>
+<aspects>
+<aspect name="com.evolverinc.demo.domain.Document_Roo_ToString"/>
+<aspect name="com.evolverinc.demo.web.ApplicationConversionServiceFactoryBean_Roo_ConversionService"/>
+<aspect name="com.evolverinc.demo.domain.Customer_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.evolverinc.demo.domain.Document_Roo_Configurable"/>
+<aspect name="com.evolverinc.demo.domain.Document_Roo_Jpa_Entity"/>
+<aspect name="com.evolverinc.demo.domain.Customer_Roo_JavaBean"/>
+<aspect name="com.evolverinc.demo.web.CustomerController_Roo_Controller"/>
+<aspect name="com.evolverinc.demo.domain.Customer_Roo_Finder"/>
+<aspect name="com.evolverinc.demo.domain.Customer_Roo_Configurable"/>
+<aspect name="com.evolverinc.demo.web.DocumentController_Roo_Controller"/>
+<aspect name="com.evolverinc.demo.domain.Document_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.evolverinc.demo.domain.Customer_Roo_Jpa_Entity"/>
+<aspect name="com.evolverinc.demo.domain.Customer_Roo_ToString"/>
+<aspect name="com.evolverinc.demo.domain.Document_Roo_JavaBean"/>
+</aspects>
+</aspectj>
+
