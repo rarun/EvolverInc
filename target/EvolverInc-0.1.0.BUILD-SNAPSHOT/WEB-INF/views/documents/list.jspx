@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_evolverinc_demo_domain_Document" items="${documents}" z="f9dfcEepBDb/XrKgHulPcugGGEk=">
+        <table:table data="${documents}" id="l_com_evolverinc_demo_domain_Document" path="/documents" update="false" z="b3SOC8pEg8DcvS2/ua14fwX5W7Q=">
+            <table:column id="c_com_evolverinc_demo_domain_Document_filename" property="filename" z="7QtEf3AMfpiQ9KUK/aW9Qz6t+t0="/>
+            <table:column id="c_com_evolverinc_demo_domain_Document_description" property="description" z="cDP+mL1wdSjna+RV2Ut5tf8vzCo="/>
+            <table:column id="c_com_evolverinc_demo_domain_Document_filesize" property="filesize" z="r3e7vEWMBLqyT5FZyZBc9p2gwBM="/>
+            <table:column id="c_com_evolverinc_demo_domain_Document_contentType" property="contentType" z="Z78QjSlP/ZSyzo/oujtyHbYtQzA="/>
+            <table:column id="c_com_evolverinc_demo_domain_Document_content" property="content" z="rJsJfSTsn5L1ja1uL0MRhcKLy8M="/>
+            <table:column id="c_com_evolverinc_demo_domain_Document_url" property="url" z="WBv3dt2qWMYLvwZ7Sf84fXdM7j0="/>
+        </table:table>
+    </page:list>
+</div>

@@ -1,0 +1,13 @@
+<aspectj>
+<aspects>
+<aspect name="com.evolverinc.demo.domain.DocumentDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.evolverinc.demo.domain.CustomerDataOnDemand_Roo_Configurable"/>
+<aspect name="com.evolverinc.demo.domain.DocumentIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.evolverinc.demo.domain.DocumentIntegrationTest_Roo_Configurable"/>
+<aspect name="com.evolverinc.demo.domain.CustomerIntegrationTest_Roo_Configurable"/>
+<aspect name="com.evolverinc.demo.domain.DocumentDataOnDemand_Roo_Configurable"/>
+<aspect name="com.evolverinc.demo.domain.CustomerDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.evolverinc.demo.domain.CustomerIntegrationTest_Roo_IntegrationTest"/>
+</aspects>
+</aspectj>
+

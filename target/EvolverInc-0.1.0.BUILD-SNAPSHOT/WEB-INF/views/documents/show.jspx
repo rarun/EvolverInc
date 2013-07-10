@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_evolverinc_demo_domain_Document" object="${document}" path="/documents" z="+lvVNtFRrRgXu7bsl7qfUJjNz0o=">
+        <field:display field="filename" id="s_com_evolverinc_demo_domain_Document_filename" object="${document}" z="qH5Jq+js7BSu5s0zYFqLZkgm6pA="/>
+        <field:display field="description" id="s_com_evolverinc_demo_domain_Document_description" object="${document}" z="01slu6C4rT16OB2FtlJL8adNxY4="/>
+        <field:display field="filesize" id="s_com_evolverinc_demo_domain_Document_filesize" object="${document}" z="3Jlb7cZY+oyeLCCAf56qCkTpzz8="/>
+        <field:display field="contentType" id="s_com_evolverinc_demo_domain_Document_contentType" object="${document}" z="fyKI2NmKIQUBDXBOPbYJpO64KsQ="/>
+        <field:display field="content" id="s_com_evolverinc_demo_domain_Document_content" render = "false" object="${document}" z="CpRoWZVnioK9fUgPJbQw8Jjo6wg="/>
+        <field:frame field="url" id="s_com_evolverinc_demo_domain_Document_url" object="${document}" z="fj1VK4Y6uqWOFwCwX00GI2pYu5Y="/>
+    </page:show>
+</div>
