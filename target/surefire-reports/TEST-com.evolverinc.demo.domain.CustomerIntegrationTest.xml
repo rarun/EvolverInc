@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="3.488" errors="0" skipped="0" tests="9" name="com.evolverinc.demo.domain.CustomerIntegrationTest">
+<testsuite failures="0" time="3.315" errors="0" skipped="0" tests="9" name="com.evolverinc.demo.domain.CustomerIntegrationTest">
   <properties>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="JOB_NAME" value="EvolverInc"/>
@@ -25,7 +25,7 @@
     <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
     <property name="ProgramFiles" value="C:\Program Files (x86)"/>
     <property name="user.language" value="en"/>
-    <property name="BUILD_DISPLAY_NAME" value="#221"/>
+    <property name="BUILD_DISPLAY_NAME" value="#222"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_21\jre\bin"/>
     <property name="LOCALAPPDATA" value="C:\Windows\system32\config\systemprofile\AppData\Local"/>
     <property name="java.version" value="1.7.0_21"/>
@@ -37,7 +37,7 @@
     <property name="NODE_NAME" value="master"/>
     <property name="PROCESSOR_ARCHITEW6432" value="AMD64"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_21\jre\lib\endorsed"/>
-    <property name="BUILD_ID" value="2013-07-10_14-18-13"/>
+    <property name="BUILD_ID" value="2013-07-11_09-01-37"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -54,7 +54,7 @@
     <property name="path.separator" value=";"/>
     <property name="java.vm.version" value="23.21-b01"/>
     <property name="user.variant" value=""/>
-    <property name="GIT_PREVIOUS_COMMIT" value="d399d3115ffe6589c7caff8f14b0f9197d7722d9"/>
+    <property name="GIT_PREVIOUS_COMMIT" value="aa1204e08ca0f97d9e9cc2512a07b52077ff28cf"/>
     <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="FP_NO_HOST_CHECK" value="NO"/>
@@ -68,7 +68,7 @@
     <property name="PUBLIC" value="C:\Users\Public"/>
     <property name="user.home" value="C:\"/>
     <property name="GIT_COMMITTER_NAME" value="Rama Arun"/>
-    <property name="BUILD_TAG" value="jenkins-EvolverInc-221"/>
+    <property name="BUILD_TAG" value="jenkins-EvolverInc-222"/>
     <property name="JENKINS_SERVER_COOKIE" value="f7945bdbaf07df01"/>
     <property name="HUDSON_URL" value="http://dev-app02:3001/"/>
     <property name="ProgramData" value="C:\ProgramData"/>
@@ -82,7 +82,7 @@
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="maven.home" value="C:\java\springsource\apache-maven-3.0.4"/>
     <property name="java.class.path" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-agent-1.3.jar;C:\java\springsource\apache-maven-3.0.4\boot\plexus-classworlds-2.4.jar"/>
-    <property name="sun.java.command" value="org.jvnet.hudson.maven3.agent.Maven3Main C:\java\springsource\apache-maven-3.0.4 C:\Program Files (x86)\Jenkins\war\WEB-INF\lib\remoting-2.24.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-1.3.jar 52634"/>
+    <property name="sun.java.command" value="org.jvnet.hudson.maven3.agent.Maven3Main C:\java\springsource\apache-maven-3.0.4 C:\Program Files (x86)\Jenkins\war\WEB-INF\lib\remoting-2.24.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-1.3.jar 53869"/>
     <property name="Path" value="C:\Program Files\Java\jdk1.7.0_21/bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\PSTools;C:\Program Files (x86)\Mozilla Firefox"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="PROCESSOR_ARCHITECTURE" value="x86"/>
@@ -97,7 +97,7 @@
     <property name="HUDSON_HOME" value="C:\Program Files (x86)\Jenkins"/>
     <property name="PATH+MAVEN" value="C:\java\springsource\apache-maven-3.0.4/bin"/>
     <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
-    <property name="BUILD_URL" value="http://dev-app02:3001/job/EvolverInc/221/"/>
+    <property name="BUILD_URL" value="http://dev-app02:3001/job/EvolverInc/222/"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="os.arch" value="amd64"/>
@@ -111,14 +111,14 @@
 "/>
     <property name="MAVEN_HOME" value="C:\java\springsource\apache-maven-3.0.4"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="BUILD_NUMBER" value="221"/>
+    <property name="BUILD_NUMBER" value="222"/>
     <property name="BASE" value="C:\Program Files (x86)\Jenkins"/>
     <property name="JENKINS_URL" value="http://dev-app02:3001/"/>
     <property name="PROCESSOR_REVISION" value="2d07"/>
     <property name="GIT_BRANCH" value="origin/master"/>
     <property name="ProgramW6432" value="C:\Program Files"/>
     <property name="windir" value="C:\Windows"/>
-    <property name="GIT_COMMIT" value="aa1204e08ca0f97d9e9cc2512a07b52077ff28cf"/>
+    <property name="GIT_COMMIT" value="4b71f2490d86ad375b1c662a9ad99905eae4383f"/>
     <property name="file.encoding" value="Cp1252"/>
     <property name="SystemDrive" value="C:"/>
     <property name="maven3.interceptor" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-1.3.jar"/>
@@ -128,13 +128,13 @@
     <property name="PSModulePath" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\"/>
     <property name="GIT_URL" value="https://github.com/rarun/EvolverInc.git"/>
   </properties>
-  <testcase time="3.21" classname="com.evolverinc.demo.domain.CustomerIntegrationTest" name="testFlush"/>
-  <testcase time="0.043" classname="com.evolverinc.demo.domain.CustomerIntegrationTest" name="testRemove"/>
-  <testcase time="0.026" classname="com.evolverinc.demo.domain.CustomerIntegrationTest" name="testPersist"/>
-  <testcase time="0.05" classname="com.evolverinc.demo.domain.CustomerIntegrationTest" name="testFindCustomerEntries"/>
-  <testcase time="0.03" classname="com.evolverinc.demo.domain.CustomerIntegrationTest" name="testMergeUpdate"/>
-  <testcase time="0.003" classname="com.evolverinc.demo.domain.CustomerIntegrationTest" name="testMarkerMethod"/>
-  <testcase time="0.067" classname="com.evolverinc.demo.domain.CustomerIntegrationTest" name="testCountCustomers"/>
-  <testcase time="0.031" classname="com.evolverinc.demo.domain.CustomerIntegrationTest" name="testFindCustomer"/>
-  <testcase time="0.028" classname="com.evolverinc.demo.domain.CustomerIntegrationTest" name="testFindAllCustomers"/>
+  <testcase time="3.065" classname="com.evolverinc.demo.domain.CustomerIntegrationTest" name="testFindCustomerEntries"/>
+  <testcase time="0.047" classname="com.evolverinc.demo.domain.CustomerIntegrationTest" name="testMergeUpdate"/>
+  <testcase time="0" classname="com.evolverinc.demo.domain.CustomerIntegrationTest" name="testMarkerMethod"/>
+  <testcase time="0.031" classname="com.evolverinc.demo.domain.CustomerIntegrationTest" name="testCountCustomers"/>
+  <testcase time="0.016" classname="com.evolverinc.demo.domain.CustomerIntegrationTest" name="testFindCustomer"/>
+  <testcase time="0.031" classname="com.evolverinc.demo.domain.CustomerIntegrationTest" name="testFindAllCustomers"/>
+  <testcase time="0.062" classname="com.evolverinc.demo.domain.CustomerIntegrationTest" name="testFlush"/>
+  <testcase time="0.032" classname="com.evolverinc.demo.domain.CustomerIntegrationTest" name="testRemove"/>
+  <testcase time="0.031" classname="com.evolverinc.demo.domain.CustomerIntegrationTest" name="testPersist"/>
 </testsuite>
